@@ -80,7 +80,7 @@ def reg():
 
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/arslanshooter/noori2/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/arslanshooter/tayyab/main/server.txt').text
 
     if to in r:
 
